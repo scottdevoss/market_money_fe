@@ -12,5 +12,6 @@ class MarketsController < ApplicationController
     # require 'pry'; binding.pry
     vendor_response = Faraday.get("http://localhost:3000/api/v0/markets/#{market_id}/vendors")
     @vendor_data = JSON.parse(vendor_response.body, symbolize_names: true)
+    
   end
 end
