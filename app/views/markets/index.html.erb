@@ -1,4 +1,8 @@
 <h1>Markets</h1>
-<h2>Name</h2>
-<h2>City</h2>
-<h2>State</h2>
+
+<% @data[:data].each do |market| %>
+  <p>Name: <%= market[:attributes][:name] %></p>
+  <p>City: <%= market[:attributes][:city] %></p>
+  <p>State: <%= market[:attributes][:state] %></p><br>
+  <%= button_to "More Info", "/markets/#{@data[:data][0][:id]}", method: :get %>
+<% end %>

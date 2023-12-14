@@ -1,0 +1,35 @@
+{
+  "data": {
+      "id": "322458",
+      "type": "market",
+      "attributes": {
+          "name": "14&U Farmers' Market",
+          "street": "1400 U Street NW ",
+          "city": "Washington",
+          "county": "District of Columbia",
+          "state": "District of Columbia",
+          "zip": "20009",
+          "lat": "38.9169984",
+          "lon": "-77.0320505",
+          "vendor_count": 1
+      },
+      "relationships": {
+          "market_vendors": {
+              "data": [
+                  {
+                      "id": "422361",
+                      "type": "market_vendor"
+                  }
+              ]
+          },
+          "vendors": {
+              "data": [
+                  {
+                      "id": "55823",
+                      "type": "vendor"
+                  }
+              ]
+          }
+      }
+  }
+}
