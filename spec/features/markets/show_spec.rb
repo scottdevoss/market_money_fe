@@ -38,6 +38,7 @@ RSpec.describe "Markets Show Page" do
       expect(page).to have_content("Washington")
       expect(page).to have_content("District of Columbia")
       expect(page).to have_content("20009")
+      save_and_open_page
     end
   end
 end
