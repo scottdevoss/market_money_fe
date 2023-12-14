@@ -80,7 +80,7 @@ RSpec.describe "Markets Show Page" do
       expect(page).to have_link("The Charcuterie Corner")
       click_link("The Charcuterie Corner")
 
-      expect(current_path).to eq("/vendors/322458")
+      expect(current_path).to eq("/vendors/55823")
     end
   end
 end

@@ -6,3 +6,6 @@
 
 <h3>Vendors at our Market</h3>
   
+<% @vendor_data[:data].each do |vendor| %>
+  <%= link_to vendor[:attributes][:name], "/vendors/#{vendor[:id]}", method: :get %>
+<% end %>
