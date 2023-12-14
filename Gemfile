@@ -70,6 +70,7 @@ end
 # add to your Gemfile
 group :test do
   gem "webmock"
-  gem "vcr"
 end
+
+gem "faraday"
 
