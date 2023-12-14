@@ -76,7 +76,7 @@ RSpec.describe "Markets Show Page" do
          to_return(status: 200, body: json_response3, headers: {})
 
       visit "/markets/322458"
-
+            
       expect(page).to have_link("The Charcuterie Corner")
       click_link("The Charcuterie Corner")
 
