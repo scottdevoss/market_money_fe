@@ -1,0 +1,41 @@
+{
+  "data": [
+      {
+          "id": "55823",
+          "type": "vendor",
+          "attributes": {
+              "name": "The Charcuterie Corner",
+              "description": "Vendor selling a variety of artisanal cured meats and sausages.",
+              "contact_name": "Claudie Langworth III",
+              "contact_phone": "1-147-179-9747",
+              "credit_accepted": false
+          },
+          "relationships": {
+              "market_vendors": {
+                  "data": [
+                      {
+                          "id": "422361",
+                          "type": "market_vendor"
+                      },
+                      {
+                          "id": "422365",
+                          "type": "market_vendor"
+                      }
+                  ]
+              },
+              "markets": {
+                  "data": [
+                      {
+                          "id": "322458",
+                          "type": "market"
+                      },
+                      {
+                          "id": "322691",
+                          "type": "market"
+                      }
+                  ]
+              }
+          }
+      }
+  ]
+}
